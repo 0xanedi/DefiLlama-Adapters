@@ -26,6 +26,13 @@ const caseSensitiveChains = [...ibcChains, 'solana', 'tezos', 'ton', 'algorand',
 ]
 
 const transformTokens = {
+  Everclear:{
+  "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8":{coingeckoId: "ethereum", decimals=18},
+  "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4":{coingeckoId: "ethereum", decimals=18},
+  "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa":{coingeckoId: "usd-coin", decimals=18},
+  "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0":{coingeckoId: "tether", decimals=18},
+  "0x7ca978c7f993c411238b0887969711b470a3133448ab70e4f18aa4d63dcb7907":{coingeckoId: "pufeth", decimals=18}
+  }
   // Sample Code
   // cronos: {
   //   "0x065de42e28e42d90c2052a1b49e7f83806af0e1f": "0x123", // CRK token is mispriced
